@@ -26,8 +26,6 @@ int extended_euclid(int a, int b, int &x, int &y) {
 }
 
 int mod_inverse(int a, int m) {
-
-    // If inverse does not exist, return -1.
     
     int x, y;
     // Gọi hàm extended_euclid để tìm x và y sao cho: a*x + m*y = gcd(a, m)
